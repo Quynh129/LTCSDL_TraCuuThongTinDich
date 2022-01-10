@@ -1,0 +1,6 @@
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\bin\Debug\wfDTO.dll
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\bin\Debug\wfDTO.pdb
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\obj\Debug\wfDTO.csproj.AssemblyReference.cache
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\obj\Debug\wfDTO.csproj.CoreCompileInputs.cache
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\obj\Debug\wfDTO.dll
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\obj\Debug\wfDTO.pdb
