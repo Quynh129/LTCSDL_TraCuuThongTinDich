@@ -8,7 +8,7 @@ using System.Data;
 
 namespace wfDAL
 {
-    class ConnectData
+    public class ConnectData
     {
         static string provider = @"Data Source=NA\HLNQUYNH;Initial Catalog=ThongTinDichCovid;Integrated Security=True";
         SqlConnection connect = new SqlConnection(provider);

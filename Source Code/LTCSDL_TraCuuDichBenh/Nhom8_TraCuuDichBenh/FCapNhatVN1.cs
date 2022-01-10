@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using wfBLL;
+using wfDTO;
+
 
 namespace Nhom8_TraCuuDichBenh
 {
     public partial class FCapNhatVN1 : Form
     {
+        VietNamBLL vn_bll = new VietNamBLL();
         public FCapNhatVN1()
         {
             InitializeComponent();
@@ -19,7 +23,7 @@ namespace Nhom8_TraCuuDichBenh
 
         private void FCapNhatVN1_Load(object sender, EventArgs e)
         {
-
+            grdDsachVN1.DataSource = vn_bll.GetList_TiemChung();
         }
 
         #region Các button chuyển form
@@ -32,9 +36,5 @@ namespace Nhom8_TraCuuDichBenh
         }
         #endregion
 
-        private void FCapNhatVN1_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }

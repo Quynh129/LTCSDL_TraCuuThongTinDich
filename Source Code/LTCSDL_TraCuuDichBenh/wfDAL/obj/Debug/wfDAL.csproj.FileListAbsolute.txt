@@ -9,3 +9,14 @@ D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.csproj.CopyComplete
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.dll
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.pdb
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\wfDAL.dll
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\wfDAL.pdb
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\System.Data.SqlClient.dll
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\wfDTO.dll
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\wfDTO.pdb
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\System.Data.SqlClient.xml
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.csproj.AssemblyReference.cache
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.csproj.CoreCompileInputs.cache
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.csproj.CopyComplete
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.dll
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.pdb

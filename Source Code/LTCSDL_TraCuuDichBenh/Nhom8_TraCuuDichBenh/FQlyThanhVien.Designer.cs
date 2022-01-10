@@ -46,11 +46,11 @@ namespace Nhom8_TraCuuDichBenh
             this.label2 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label6 = new System.Windows.Forms.Label();
-            this.grdDsachVN = new System.Windows.Forms.DataGridView();
+            this.grdDsachTaiKhoan = new System.Windows.Forms.DataGridView();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdDsachVN)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdDsachTaiKhoan)).BeginInit();
             this.SuspendLayout();
             // 
             // btDangXuat
@@ -207,13 +207,15 @@ namespace Nhom8_TraCuuDichBenh
             this.label6.TabIndex = 16;
             this.label6.Text = "Danh sách tài khoản:";
             // 
-            // grdDsachVN
+            // grdDsachTaiKhoan
             // 
-            this.grdDsachVN.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdDsachVN.Location = new System.Drawing.Point(624, 277);
-            this.grdDsachVN.Name = "grdDsachVN";
-            this.grdDsachVN.Size = new System.Drawing.Size(510, 373);
-            this.grdDsachVN.TabIndex = 15;
+            this.grdDsachTaiKhoan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdDsachTaiKhoan.Enabled = false;
+            this.grdDsachTaiKhoan.Location = new System.Drawing.Point(624, 277);
+            this.grdDsachTaiKhoan.Name = "grdDsachTaiKhoan";
+            this.grdDsachTaiKhoan.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.grdDsachTaiKhoan.Size = new System.Drawing.Size(510, 373);
+            this.grdDsachTaiKhoan.TabIndex = 15;
             // 
             // FQlyThanhVien
             // 
@@ -225,21 +227,20 @@ namespace Nhom8_TraCuuDichBenh
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.grdDsachVN);
+            this.Controls.Add(this.grdDsachTaiKhoan);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FQlyThanhVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FQlyThanhVien";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FQlyThanhVien_FormClosing);
             this.Load += new System.EventHandler(this.FQlyThanhVien_Load);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdDsachVN)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdDsachTaiKhoan)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -262,7 +263,7 @@ namespace Nhom8_TraCuuDichBenh
         private System.Windows.Forms.TextBox txtMaTP;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DataGridView grdDsachVN;
+        private System.Windows.Forms.DataGridView grdDsachTaiKhoan;
         private System.Windows.Forms.Button btSua;
     }
 }

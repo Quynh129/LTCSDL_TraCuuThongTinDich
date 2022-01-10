@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace wfDTO
 {
-    class VietNamDTO
+    public class VietNamDTO
     {
         public string MaTp { get; set; }
         public string TenTp { get; set; }

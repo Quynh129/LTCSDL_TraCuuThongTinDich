@@ -164,8 +164,8 @@ namespace Nhom8_TraCuuDichBenh
             this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FDsChucNang";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FDsChucNang";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FDsChucNang_FormClosing);
             this.Load += new System.EventHandler(this.FDsChucNang_Load);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

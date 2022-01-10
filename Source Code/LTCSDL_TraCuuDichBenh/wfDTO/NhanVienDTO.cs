@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace wfDTO
 {
-    class NhanVienDTO
+    public class NhanVienDTO
     {
         public double MaNv { get; set; }
         public string TenUser { get; set; }

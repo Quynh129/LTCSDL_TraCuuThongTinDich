@@ -32,22 +32,28 @@ namespace Nhom8_TraCuuDichBenh
 
         private void btVietNam_Click(object sender, EventArgs e)
         {
-            FThongTinVN fTG = new FThongTinVN(this);
-            fTG.Show();
+            FThongTinVN fVN = new FThongTinVN(this);
+            fVN.Show();
             this.Hide();
         }
 
         private void btDangNhap_Click(object sender, EventArgs e)
         {
-            FDangNhap fTG = new FDangNhap(this);
-            fTG.Show();
+            FDangNhap flogin = new FDangNhap(this);
+            flogin.Show();
             this.Hide();
         }
         #endregion
 
         private void FTrangChu_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát?", "tiêu đề",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialogResult == DialogResult.No)
+            {
+                //huy dong form
+                e.Cancel = true;
+            }
         }
     }
 }

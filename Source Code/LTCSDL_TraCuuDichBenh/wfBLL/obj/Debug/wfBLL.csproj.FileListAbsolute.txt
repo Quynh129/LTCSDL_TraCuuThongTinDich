@@ -9,3 +9,14 @@ D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\obj\Debug\wfBLL.csproj.CopyComplete
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\obj\Debug\wfBLL.dll
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\LTCSDL_Nhom8_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\obj\Debug\wfBLL.pdb
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\bin\Debug\wfBLL.dll
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\bin\Debug\wfBLL.pdb
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\bin\Debug\wfDAL.dll
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\bin\Debug\wfDTO.dll
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\bin\Debug\wfDAL.pdb
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\bin\Debug\wfDTO.pdb
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\obj\Debug\wfBLL.csproj.AssemblyReference.cache
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\obj\Debug\wfBLL.csproj.CoreCompileInputs.cache
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\obj\Debug\wfBLL.csproj.CopyComplete
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\obj\Debug\wfBLL.dll
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfBLL\obj\Debug\wfBLL.pdb

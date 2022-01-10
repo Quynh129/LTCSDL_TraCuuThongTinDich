@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace wfDTO
 {
-    class QtvDTO
+    public class QtvDTO
     {
         public string MaAdmin { get; set; }
         public string TenUser { get; set; }

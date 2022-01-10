@@ -46,9 +46,5 @@ namespace Nhom8_TraCuuDichBenh
         }
         #endregion
 
-        private void FThongTinTG_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }

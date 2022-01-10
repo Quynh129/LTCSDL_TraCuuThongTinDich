@@ -209,8 +209,10 @@ namespace Nhom8_TraCuuDichBenh
             // grdDsachTG
             // 
             this.grdDsachTG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdDsachTG.Enabled = false;
             this.grdDsachTG.Location = new System.Drawing.Point(624, 265);
             this.grdDsachTG.Name = "grdDsachTG";
+            this.grdDsachTG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.grdDsachTG.Size = new System.Drawing.Size(510, 373);
             this.grdDsachTG.TabIndex = 5;
             // 
@@ -240,7 +242,6 @@ namespace Nhom8_TraCuuDichBenh
             this.Name = "FCapNhatTG";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FCapNhatTG";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FCapNhatTG_FormClosing);
             this.Load += new System.EventHandler(this.FCapNhatTG_Load);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

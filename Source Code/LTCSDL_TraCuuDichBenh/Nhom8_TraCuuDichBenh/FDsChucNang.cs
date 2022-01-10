@@ -52,10 +52,5 @@ namespace Nhom8_TraCuuDichBenh
             this.Close();
         }
         #endregion
-
-        private void FDsChucNang_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }

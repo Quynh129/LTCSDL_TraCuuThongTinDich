@@ -134,6 +134,7 @@ namespace Nhom8_TraCuuDichBenh
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Enabled = false;
             this.dataGridView1.Location = new System.Drawing.Point(63, 165);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(579, 332);
@@ -154,7 +155,6 @@ namespace Nhom8_TraCuuDichBenh
             this.Name = "FThongTinTG";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FThongTinTG";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FThongTinTG_FormClosing);
             this.Load += new System.EventHandler(this.FThongTinTG_Load);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);

@@ -142,7 +142,6 @@ namespace Nhom8_TraCuuDichBenh
             this.Name = "FDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FDangNhap";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FDangNhap_FormClosing);
             this.Load += new System.EventHandler(this.FDangNhap_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

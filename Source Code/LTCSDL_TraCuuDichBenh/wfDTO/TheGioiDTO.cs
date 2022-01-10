@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace wfDTO
 {
-    class TheGioiDTO
+    public class TheGioiDTO
     {
         public string MaQg { get; set; }
         public string TenQg { get; set; }

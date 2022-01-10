@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NhanVienBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QtvBLL.cs" />
+    <Compile Include="TheGioiBLL.cs" />
+    <Compile Include="VietNamBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\wfDAL\wfDAL.csproj">
