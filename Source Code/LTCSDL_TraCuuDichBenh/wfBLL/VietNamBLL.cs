@@ -20,5 +20,12 @@ namespace wfBLL
         {
             return VN_dal.loadThongTinVN_TiemChung();
         }
+        public bool CapNhat(VietNamDTO VN)
+        {
+            if (string.IsNullOrEmpty(VN.MaTp))
+                return false;
+            VN_dal.Update(VN);
+            return true;
+        }
     }
 }
