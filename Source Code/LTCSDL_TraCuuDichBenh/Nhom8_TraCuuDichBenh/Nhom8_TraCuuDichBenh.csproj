@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataDataContext.cs" />
     <Compile Include="FCapNhatTG.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +101,7 @@
     <Compile Include="FTrangChu.Designer.cs">
       <DependentUpon>FTrangChu.cs</DependentUpon>
     </Compile>
+    <Compile Include="OleDataAdapter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FCapNhatTG.resx">
@@ -160,6 +162,9 @@
       <Project>{7b1a625e-7dd2-4bfe-a01f-5b28c67c3e83}</Project>
       <Name>wfDTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

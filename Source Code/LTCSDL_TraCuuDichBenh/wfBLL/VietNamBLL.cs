@@ -12,13 +12,21 @@ namespace wfBLL
     public class VietNamBLL
     {
         VietNamDAL VN_dal = new VietNamDAL();
+        /*
         public DataTable GetList()
         {
             return VN_dal.loadThongTinVN();
         }
+        
         public DataTable GetList_TiemChung()
         {
             return VN_dal.loadThongTinVN_TiemChung();
         }
+        */
+        public DataTable GetList()
+        {
+            return VN_dal.loadTTVN();
+        }
+
     }
 }

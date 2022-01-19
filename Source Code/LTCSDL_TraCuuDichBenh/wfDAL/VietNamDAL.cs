@@ -20,5 +20,10 @@ namespace wfDAL
             string sqlString = @"select MaTP, TenTP, TiemMot, TiemDu, MaNV from VietNam";
             return GetData(sqlString);
         }
+        public DataTable loadTTVN()
+        {
+            string sqlString = @"select MaTP, TenTP, NhiemTong,  TuTong, TiemMot, TiemDu  from VietNam";
+            return GetData(sqlString);
+        }
     }
 }

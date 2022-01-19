@@ -11,10 +11,14 @@ namespace wfBLL
 {
     public class TheGioiBLL
     {
+       
         TheGioiDAL TG_dal = new TheGioiDAL();
         public DataTable GetList()
         {
-            return TG_dal.loadThongTinTG();
+            return TG_dal.loadTTTG();
         }
+       
+        
+      
     }
 }
