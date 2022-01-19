@@ -43,16 +43,19 @@ namespace Nhom8_TraCuuDichBenh
             // 
             // btQuayLai
             // 
+            this.btQuayLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btQuayLai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btQuayLai.Location = new System.Drawing.Point(25, 22);
             this.btQuayLai.Name = "btQuayLai";
             this.btQuayLai.Size = new System.Drawing.Size(118, 53);
             this.btQuayLai.TabIndex = 0;
             this.btQuayLai.Text = "Quay về";
-            this.btQuayLai.UseVisualStyleBackColor = true;
+            this.btQuayLai.UseVisualStyleBackColor = false;
             this.btQuayLai.Click += new System.EventHandler(this.btQuayLai_Click);
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(217)))), ((int)(((byte)(218)))));
             this.panel1.Controls.Add(this.lbTbao);
             this.panel1.Controls.Add(this.btDangNhap);
             this.panel1.Controls.Add(this.label3);
@@ -67,32 +70,36 @@ namespace Nhom8_TraCuuDichBenh
             // 
             // lbTbao
             // 
-            this.lbTbao.AutoSize = true;
             this.lbTbao.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTbao.ForeColor = System.Drawing.Color.Maroon;
             this.lbTbao.Location = new System.Drawing.Point(234, 287);
             this.lbTbao.Name = "lbTbao";
             this.lbTbao.Size = new System.Drawing.Size(323, 22);
             this.lbTbao.TabIndex = 6;
-            this.lbTbao.Text = "Nhập sai tên đăng nhập hoặc mật khẩu";
+            this.lbTbao.Text = "Thông báo";
+            this.lbTbao.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbTbao.Visible = false;
             // 
             // btDangNhap
             // 
+            this.btDangNhap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(169)))), ((int)(((byte)(243)))));
+            this.btDangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btDangNhap.Location = new System.Drawing.Point(303, 324);
             this.btDangNhap.Name = "btDangNhap";
             this.btDangNhap.Size = new System.Drawing.Size(184, 53);
             this.btDangNhap.TabIndex = 5;
             this.btDangNhap.Text = "Đăng nhập";
-            this.btDangNhap.UseVisualStyleBackColor = true;
+            this.btDangNhap.UseVisualStyleBackColor = false;
             this.btDangNhap.Click += new System.EventHandler(this.btDangNhap_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(175, 54);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Maroon;
+            this.label3.Location = new System.Drawing.Point(162, 54);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(441, 31);
+            this.label3.Size = new System.Drawing.Size(467, 31);
             this.label3.TabIndex = 4;
             this.label3.Text = "ĐĂNG NHẬP TÀI KHOẢN CÁN BỘ";
             // 
@@ -109,6 +116,7 @@ namespace Nhom8_TraCuuDichBenh
             // 
             this.txtMK.Location = new System.Drawing.Point(267, 229);
             this.txtMK.Name = "txtMK";
+            this.txtMK.PasswordChar = '*';
             this.txtMK.Size = new System.Drawing.Size(443, 32);
             this.txtMK.TabIndex = 2;
             // 
@@ -141,7 +149,7 @@ namespace Nhom8_TraCuuDichBenh
             this.MaximizeBox = false;
             this.Name = "FDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FDangNhap";
+            this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.FDangNhap_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

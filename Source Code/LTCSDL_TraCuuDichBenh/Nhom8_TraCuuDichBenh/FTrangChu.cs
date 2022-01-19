@@ -7,11 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using wfBLL;
+using wfDTO;
+using wfDAL;
 
 namespace Nhom8_TraCuuDichBenh
 {
     public partial class FTrangChu : Form
     {
+        TheGioiBLL tg_bll = new TheGioiBLL();
+        VietNamBLL vn_bll = new VietNamBLL();
+        ConnectData _dt = new ConnectData();
+
         public FTrangChu()
         {
             InitializeComponent();
@@ -19,7 +26,16 @@ namespace Nhom8_TraCuuDichBenh
 
         private void FTrangChu_Load(object sender, EventArgs e)
         {
-            
+            DataTable dt = _dt.GetData("select TGNhiemTong, TGTuTong, TGKhoiTong from TheGioi where MaQG = ('QG00')");
+            lbTGnhiem.DataBindings.Add("Text", dt, "TGNhiemTong", true);
+            lbTGtu.DataBindings.Add("Text", dt, "TGTuTong", true);
+            lbTGKhoi.DataBindings.Add("Text", dt, "TGKhoiTong", true);
+
+            DataTable dt2 = _dt.GetData("select NhiemTong, TuTong from VietNam where MaTP = ('00')");
+            lbVNnhiem.DataBindings.Add("Text", dt2, "NhiemTong", true);
+            lbVNtu.DataBindings.Add("Text", dt2, "TuTong", true);
+            DataTable dt3 = _dt.GetData("select TGNhiemTong, TGTuTong, TGKhoiTong from TheGioi where MaQG = ('QG32')");
+            lbVNkhoi.DataBindings.Add("Text", dt3, "TGKhoiTong", true);
         }
 
         #region Các button chuyển form
@@ -51,7 +67,6 @@ namespace Nhom8_TraCuuDichBenh
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (dialogResult == DialogResult.No)
             {
-                //huy dong form
                 e.Cancel = true;
             }
         }

@@ -15,5 +15,11 @@ namespace wfDAL
             string sqlString = @"select * from Qtv";
             return GetData(sqlString);
         }
+        public bool login(string _tk, string _mk)
+        {
+            if (GetData("select* from Qtv where TenUser = '" + _tk + "' and Password = '" + _mk + "'").Rows.Count > 0)
+                return true;
+            return false;
+        }
     }
 }
