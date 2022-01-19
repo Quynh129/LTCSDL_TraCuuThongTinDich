@@ -137,6 +137,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -156,10 +157,17 @@
       <Project>{966b28a0-9a37-4f3a-a78f-b815e6f83525}</Project>
       <Name>wfBLL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\wfDAL\wfDAL.csproj">
+      <Project>{c3596df2-eb83-4ff8-a77e-7db521525c33}</Project>
+      <Name>wfDAL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\wfDTO\wfDTO.csproj">
       <Project>{7b1a625e-7dd2-4bfe-a01f-5b28c67c3e83}</Project>
       <Name>wfDTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

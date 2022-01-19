@@ -16,5 +16,11 @@ namespace wfBLL
         {
             return nv_dal.loadThongTinNV();
         }
+        public bool DangNhap(string _tk, string _mk)
+        {
+            if (nv_dal.login(_tk, _mk) == true)
+                return true; //có tài khoản
+            return false;
+        }
     }
 }
