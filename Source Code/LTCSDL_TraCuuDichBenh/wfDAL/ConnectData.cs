@@ -10,7 +10,7 @@ namespace wfDAL
 {
     public class ConnectData
     {
-        static string provider = @"Data Source=local;Initial Catalog=ThongTinDichCovid;Integrated Security=True";// local
+        static string provider = @"Data Source=NA\HLNQUYNH;Initial Catalog=ThongTinDichCovid;Integrated Security=True";
         SqlConnection connect = new SqlConnection(provider);
 
         public DataTable GetData(string sql)
