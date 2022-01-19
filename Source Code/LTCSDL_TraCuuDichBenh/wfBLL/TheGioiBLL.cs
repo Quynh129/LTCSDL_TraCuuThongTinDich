@@ -16,5 +16,12 @@ namespace wfBLL
         {
             return TG_dal.loadThongTinTG();
         }
+        public bool CapNhat(TheGioiDTO _tg)
+        {
+            if (string.IsNullOrEmpty(_tg.MaQg))
+                return false;
+            TG_dal.Update(_tg);
+            return true;
+        }
     }
 }

@@ -20,3 +20,14 @@ D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.csproj.CopyComplete
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.dll
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.pdb
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\wfDAL.dll
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\wfDAL.pdb
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\System.Data.SqlClient.dll
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\wfDTO.dll
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\wfDTO.pdb
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\bin\Debug\System.Data.SqlClient.xml
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.csproj.CoreCompileInputs.cache
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.csproj.CopyComplete
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.dll
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.pdb
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDAL\obj\Debug\wfDAL.csproj.AssemblyReference.cache

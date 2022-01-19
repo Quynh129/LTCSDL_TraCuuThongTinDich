@@ -46,3 +46,28 @@ D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.pdb
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDAL.dll
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDAL.pdb
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\Nhom8_TraCuuDichBenh.exe.config
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\Nhom8_TraCuuDichBenh.exe
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\Nhom8_TraCuuDichBenh.pdb
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfBLL.dll
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDTO.dll
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDAL.dll
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfBLL.pdb
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDTO.pdb
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDAL.pdb
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.csproj.AssemblyReference.cache
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FCapNhatTG.resources
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FCapNhatVN.resources
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FCapNhatVN1.resources
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FDangNhap.resources
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FDsChucNang.resources
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FQlyThanhVien.resources
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FThongTinTG.resources
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FThongTinVN.resources
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FTrangChu.resources
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.Properties.Resources.resources
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.csproj.GenerateResource.cache
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.csproj.CoreCompileInputs.cache
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.csproj.CopyComplete
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.exe
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.pdb

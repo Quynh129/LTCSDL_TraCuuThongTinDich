@@ -10,3 +10,9 @@ D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\obj\Debug\wfDTO.csproj.CoreCompileInputs.cache
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\obj\Debug\wfDTO.dll
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\obj\Debug\wfDTO.pdb
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\bin\Debug\wfDTO.dll
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\bin\Debug\wfDTO.pdb
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\obj\Debug\wfDTO.csproj.AssemblyReference.cache
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\obj\Debug\wfDTO.csproj.CoreCompileInputs.cache
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\obj\Debug\wfDTO.dll
+C:\Users\NHUTRUC\Desktop\LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\wfDTO\obj\Debug\wfDTO.pdb
