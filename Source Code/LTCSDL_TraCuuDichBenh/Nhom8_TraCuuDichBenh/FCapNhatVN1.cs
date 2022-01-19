@@ -23,7 +23,7 @@ namespace Nhom8_TraCuuDichBenh
 
         private void FCapNhatVN1_Load(object sender, EventArgs e)
         {
-            grdDsachVN1.DataSource = vn_bll.GetList();
+            grdDsachVN1.DataSource = vn_bll.GetList_TiemChung();
         }
 
         #region Các button chuyển form
