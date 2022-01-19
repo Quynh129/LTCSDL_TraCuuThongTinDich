@@ -25,7 +25,7 @@ namespace Nhom8_TraCuuDichBenh
       
         private void FThongTinVN_Load(object sender, EventArgs e)
         {
-            gridDsVN.DataSource = vn.GetList();
+            gridDsVN.DataSource = vn.GetListInfoVN();
             GetSizeColumns();
             GetHeader();
          
