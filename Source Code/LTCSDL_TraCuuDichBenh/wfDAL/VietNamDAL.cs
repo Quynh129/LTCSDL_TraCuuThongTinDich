@@ -20,5 +20,11 @@ namespace wfDAL
             string sqlString = @"select MaTP, TenTP, TiemMot, TiemDu, MaNV from VietNam";
             return GetData(sqlString);
         }
+        public void Update(VietNamDTO VN)
+        {
+            string sql = string.Format("update VietNam set NhiemTong = '{0}', NhiemMoi = '{1}', TuTong = '{2}', TuMoi = '{3}' where MaTp = '{4}'",
+                 VN.NhiemTong, VN.NhiemMoi, VN.TuTong, VN.TuMoi, VN.MaTp);
+            Excute(sql);
+        }
     }
 }
