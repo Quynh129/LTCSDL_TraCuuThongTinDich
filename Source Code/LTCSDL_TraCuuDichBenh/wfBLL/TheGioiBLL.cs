@@ -15,9 +15,12 @@ namespace wfBLL
         TheGioiDAL TG_dal = new TheGioiDAL();
         public DataTable GetList()
         {
-            return TG_dal.loadTTTG();
+           return TG_dal.loadThongTinTG();
         }
-       
+        public DataTable GetListInfoTG()
+        {
+           return TG_dal.loadTTTG();
+        }
         
       
     }
