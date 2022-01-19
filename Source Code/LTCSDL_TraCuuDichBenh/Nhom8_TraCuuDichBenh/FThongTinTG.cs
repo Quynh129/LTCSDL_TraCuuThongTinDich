@@ -29,7 +29,7 @@ namespace Nhom8_TraCuuDichBenh
 
         private void FThongTinTG_Load(object sender, EventArgs e)
         {
-            gridDsTG.DataSource = bus.GetList();
+            gridDsTG.DataSource = bus.GetListInfoTG();
             GetHeaderTG();
             GetSizeColumnsTG();
         }
