@@ -26,5 +26,10 @@ namespace wfDAL
                  VN.NhiemTong, VN.NhiemMoi, VN.TuTong, VN.TuMoi, VN.MaTp);
             Excute(sql);
         }
+        public DataTable loadTTVN()
+        {
+            string sqlString = @"select MaTP, TenTP, NhiemTong,  TuTong, TiemMot, TiemDu  from VietNam";
+            return GetData(sqlString);
+        }
     }
 }

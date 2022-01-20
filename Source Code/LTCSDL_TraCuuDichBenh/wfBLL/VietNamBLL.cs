@@ -16,6 +16,10 @@ namespace wfBLL
         {
             return VN_dal.loadThongTinVN();
         }
+        public DataTable GetListInfoVN()
+        {
+            return VN_dal.loadTTVN();
+        }
         public DataTable GetList_TiemChung()
         {
             return VN_dal.loadThongTinVN_TiemChung();

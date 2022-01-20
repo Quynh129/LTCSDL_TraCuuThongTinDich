@@ -16,5 +16,9 @@ namespace wfBLL
         {
             return TG_dal.loadThongTinTG();
         }
+        public DataTable GetListInfoTG()
+        {
+            return TG_dal.loadTTTG();
+        }
     }
 }

@@ -15,5 +15,11 @@ namespace wfDAL
             string sqlString = @"select * from TheGioi";
             return GetData(sqlString);
         }
+        public DataTable loadTTTG()
+        {
+            string sqlString = @"select MaQg,TenQg, TgnhiemTong,TgtuTong,TgkhoiTong from TheGioi";
+
+            return GetData(sqlString);
+        }
     }
 }
