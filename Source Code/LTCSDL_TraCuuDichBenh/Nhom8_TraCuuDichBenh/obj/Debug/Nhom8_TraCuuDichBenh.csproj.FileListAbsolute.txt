@@ -46,27 +46,3 @@ D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.pdb
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDAL.dll
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDAL.pdb
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\Nhom8_TraCuuDichBenh.exe.config
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\Nhom8_TraCuuDichBenh.exe
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\Nhom8_TraCuuDichBenh.pdb
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfBLL.dll
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDTO.dll
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDAL.dll
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfBLL.pdb
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDTO.pdb
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDAL.pdb
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.csproj.AssemblyReference.cache
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FCapNhatTG.resources
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FCapNhatVN.resources
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FCapNhatVN1.resources
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FDangNhap.resources
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FDsChucNang.resources
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FQlyThanhVien.resources
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FThongTinTG.resources
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FThongTinVN.resources
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FTrangChu.resources
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.Properties.Resources.resources
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.csproj.GenerateResource.cache
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.csproj.CoreCompileInputs.cache
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.exe
-D:\Nhom8_LTCSDL\LTCSDL_TraCuuThongTinDich\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.pdb
