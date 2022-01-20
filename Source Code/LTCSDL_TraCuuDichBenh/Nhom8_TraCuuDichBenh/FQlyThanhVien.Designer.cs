@@ -38,11 +38,11 @@ namespace Nhom8_TraCuuDichBenh
             this.btSua = new System.Windows.Forms.Button();
             this.btXoa = new System.Windows.Forms.Button();
             this.btThem = new System.Windows.Forms.Button();
-            this.txtNhiem = new System.Windows.Forms.TextBox();
+            this.txtTenTK = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtTu = new System.Windows.Forms.TextBox();
+            this.txtMK = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtMaTP = new System.Windows.Forms.TextBox();
+            this.txtMaTK = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label6 = new System.Windows.Forms.Label();
@@ -106,11 +106,11 @@ namespace Nhom8_TraCuuDichBenh
             this.groupBox1.Controls.Add(this.btSua);
             this.groupBox1.Controls.Add(this.btXoa);
             this.groupBox1.Controls.Add(this.btThem);
-            this.groupBox1.Controls.Add(this.txtNhiem);
+            this.groupBox1.Controls.Add(this.txtTenTK);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.txtTu);
+            this.groupBox1.Controls.Add(this.txtMK);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.txtMaTP);
+            this.groupBox1.Controls.Add(this.txtMaTK);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(59, 222);
             this.groupBox1.Name = "groupBox1";
@@ -128,6 +128,7 @@ namespace Nhom8_TraCuuDichBenh
             this.btSua.Text = "Chỉnh sửa";
             this.toolTip1.SetToolTip(this.btSua, "Chỉnh sửa thông tin tài khoản");
             this.btSua.UseVisualStyleBackColor = true;
+            this.btSua.Click += new System.EventHandler(this.btSua_Click);
             // 
             // btXoa
             // 
@@ -138,6 +139,7 @@ namespace Nhom8_TraCuuDichBenh
             this.btXoa.Text = "Xóa";
             this.toolTip1.SetToolTip(this.btXoa, "Xóa tài khoản");
             this.btXoa.UseVisualStyleBackColor = true;
+            this.btXoa.Click += new System.EventHandler(this.btXoa_Click);
             // 
             // btThem
             // 
@@ -148,13 +150,14 @@ namespace Nhom8_TraCuuDichBenh
             this.btThem.Text = "Tạo mới";
             this.toolTip1.SetToolTip(this.btThem, "Tạo mới tài khoản");
             this.btThem.UseVisualStyleBackColor = true;
+            this.btThem.Click += new System.EventHandler(this.btThem_Click);
             // 
-            // txtNhiem
+            // txtTenTK
             // 
-            this.txtNhiem.Location = new System.Drawing.Point(190, 110);
-            this.txtNhiem.Name = "txtNhiem";
-            this.txtNhiem.Size = new System.Drawing.Size(212, 32);
-            this.txtNhiem.TabIndex = 7;
+            this.txtTenTK.Location = new System.Drawing.Point(190, 110);
+            this.txtTenTK.Name = "txtTenTK";
+            this.txtTenTK.Size = new System.Drawing.Size(212, 32);
+            this.txtTenTK.TabIndex = 7;
             // 
             // label5
             // 
@@ -165,12 +168,12 @@ namespace Nhom8_TraCuuDichBenh
             this.label5.TabIndex = 6;
             this.label5.Text = "Tên tài khoản:";
             // 
-            // txtTu
+            // txtMK
             // 
-            this.txtTu.Location = new System.Drawing.Point(190, 168);
-            this.txtTu.Name = "txtTu";
-            this.txtTu.Size = new System.Drawing.Size(212, 32);
-            this.txtTu.TabIndex = 5;
+            this.txtMK.Location = new System.Drawing.Point(190, 168);
+            this.txtMK.Name = "txtMK";
+            this.txtMK.Size = new System.Drawing.Size(212, 32);
+            this.txtMK.TabIndex = 5;
             // 
             // label4
             // 
@@ -181,13 +184,13 @@ namespace Nhom8_TraCuuDichBenh
             this.label4.TabIndex = 4;
             this.label4.Text = "Mật khẩu:";
             // 
-            // txtMaTP
+            // txtMaTK
             // 
-            this.txtMaTP.Enabled = false;
-            this.txtMaTP.Location = new System.Drawing.Point(190, 52);
-            this.txtMaTP.Name = "txtMaTP";
-            this.txtMaTP.Size = new System.Drawing.Size(80, 32);
-            this.txtMaTP.TabIndex = 1;
+            this.txtMaTK.Enabled = false;
+            this.txtMaTK.Location = new System.Drawing.Point(190, 52);
+            this.txtMaTK.Name = "txtMaTK";
+            this.txtMaTK.Size = new System.Drawing.Size(80, 32);
+            this.txtMaTK.TabIndex = 1;
             // 
             // label2
             // 
@@ -210,12 +213,13 @@ namespace Nhom8_TraCuuDichBenh
             // grdDsachTaiKhoan
             // 
             this.grdDsachTaiKhoan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdDsachTaiKhoan.Enabled = false;
             this.grdDsachTaiKhoan.Location = new System.Drawing.Point(624, 277);
             this.grdDsachTaiKhoan.Name = "grdDsachTaiKhoan";
+            this.grdDsachTaiKhoan.RowHeadersWidth = 51;
             this.grdDsachTaiKhoan.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.grdDsachTaiKhoan.Size = new System.Drawing.Size(510, 373);
             this.grdDsachTaiKhoan.TabIndex = 15;
+            this.grdDsachTaiKhoan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdDsachTaiKhoan_CellContentClick);
             // 
             // FQlyThanhVien
             // 
@@ -256,11 +260,11 @@ namespace Nhom8_TraCuuDichBenh
         private System.Windows.Forms.Button btXoa;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button btThem;
-        private System.Windows.Forms.TextBox txtNhiem;
+        private System.Windows.Forms.TextBox txtTenTK;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtTu;
+        private System.Windows.Forms.TextBox txtMK;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtMaTP;
+        private System.Windows.Forms.TextBox txtMaTK;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridView grdDsachTaiKhoan;

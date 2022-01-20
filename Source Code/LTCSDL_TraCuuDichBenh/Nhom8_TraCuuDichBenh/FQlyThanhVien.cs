@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using wfBLL;
 using wfDTO;
+using wfDAL;
 
 namespace Nhom8_TraCuuDichBenh
 {
@@ -43,5 +44,53 @@ namespace Nhom8_TraCuuDichBenh
         }
         #endregion
 
+        private void grdDsachTaiKhoan_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btThem_Click(object sender, EventArgs e)
+        {
+            NhanVienDTO nv = new NhanVienDTO();
+            Random rmd = new Random();
+            nv.MaNv = rmd.Next(0, 1000);
+            nv.TenUser = txtTenTK.Text;
+            nv.Password = txtMK.Text;
+            nv_bll.Them(nv);
+            FQlyThanhVien_Load(sender, e);
+
+            ResetGridview();
+
+        }
+
+
+        private void ResetGridview()
+        {
+            txtMaTK.ResetText();
+            txtTenTK.ResetText();
+            txtMK.ResetText();
+        }
+
+        private void btSua_Click(object sender, EventArgs e)
+        {
+            NhanVienDTO nv = new NhanVienDTO();
+            nv.MaNv = int.Parse(txtMaTK.Text);
+            nv.TenUser = txtTenTK.Text;
+            nv.TenUser = txtMK.Text;
+            nv_bll.Sua(nv);
+            FQlyThanhVien_Load(sender, e);
+            ResetGridview();
+        }
+
+        private void btXoa_Click(object sender, EventArgs e)
+        {
+            if (txtMaTK.Text != "")
+            {
+                nv_bll.Xoa(txtMaTK.Text);
+                ResetGridview();
+                FQlyThanhVien_Load(sender, e);
+
+            }
+        }
     }
 }
