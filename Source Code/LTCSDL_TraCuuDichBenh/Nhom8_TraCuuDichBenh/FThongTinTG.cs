@@ -7,11 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using wfBLL;
+using wfDTO;
 
 namespace Nhom8_TraCuuDichBenh
 {
     public partial class FThongTinTG : Form
     {
+        TheGioiBLL bus = new TheGioiBLL();
+        BindingSource bs;
+
         private FTrangChu fHome;
         public FThongTinTG(FTrangChu _fHome)
         {
@@ -21,7 +26,9 @@ namespace Nhom8_TraCuuDichBenh
 
         private void FThongTinTG_Load(object sender, EventArgs e)
         {
-
+            gridDsTG.DataSource = bus.GetListInfoTG();
+            GetHeaderTG();
+            GetSizeColumnsTG();
         }
 
         #region Các button chuyển form
@@ -46,5 +53,40 @@ namespace Nhom8_TraCuuDichBenh
         }
         #endregion
 
+        private void gridDsTG_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var row = gridDsTG.Rows[e.RowIndex];
+            txtTenQG.Text = row.Cells["TenQg"].Value.ToString();
+            txtCaNhiemTG.Text = row.Cells["TgnhiemTong"].Value.ToString();
+            txtCaTuTG.Text = row.Cells["TgtuTong"].Value.ToString();
+            txtCaKhoiTG.Text = row.Cells["TgkhoiTong"].Value.ToString();
+
+        }
+
+        public void GetHeaderTG()
+        {
+            gridDsTG.Columns[0].HeaderText = "MãQG";
+            gridDsTG.Columns[1].HeaderText = "TênQG";
+            gridDsTG.Columns[2].HeaderText = "Ca nhiễm";
+            gridDsTG.Columns[3].HeaderText = "Ca tử vong";
+            gridDsTG.Columns[4].HeaderText = "Ca khỏi bệnh";
+
+        }
+        public void GetSizeColumnsTG()
+        {
+            gridDsTG.Columns[0].Width = 100;
+            gridDsTG.Columns[1].Width = 150;
+            gridDsTG.Columns[2].Width = 200;
+            gridDsTG.Columns[3].Width = 200;
+            gridDsTG.Columns[4].Width = 200;
+
+
+        }
+
+        private void txtTKTenQG_TextChanged(object sender, EventArgs e)
+        {
+            string rowFilter = string.Format("{0} like '{1}'", "TenQg", "*" + txtTKTenQG.Text + "*");
+            (gridDsTG.DataSource as DataTable).DefaultView.RowFilter = rowFilter;
+        }
     }
 }
