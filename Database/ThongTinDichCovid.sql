@@ -21,6 +21,7 @@ create table NhanVien
 	[MaNV] [float],
 	[TenUser] [nvarchar](255),
 	[Password] [nvarchar](255),
+	[TonTai] [float],
 	[MaAdmin] [nvarchar](255),
 	PRIMARY KEY (MaNV),
 )
@@ -53,11 +54,11 @@ create table VietNam
 )
 
 /* Them thong tin*/
-INSERT NhanVien ([MaNV], [TenUser], [Password], [MaAdmin]) VALUES (1, N'Ngan', N'12345', N'ad1')
-INSERT NhanVien ([MaNV], [TenUser], [Password], [MaAdmin]) VALUES (2, N'Ngoc', N'12345', N'ad1')
-INSERT NhanVien ([MaNV], [TenUser], [Password], [MaAdmin]) VALUES (3, N'Quynh', N'12345', N'ad1')
-INSERT NhanVien ([MaNV], [TenUser], [Password], [MaAdmin]) VALUES (4, N'Truc', N'12345', N'ad1')
-INSERT NhanVien ([MaNV], [TenUser], [Password], [MaAdmin]) VALUES (5, N'Vuong', N'12345', N'ad1')
+INSERT NhanVien ([MaNV], [TenUser], [Password], [TonTai], [MaAdmin]) VALUES (1, N'Ngan', N'12345', 1, N'ad1')
+INSERT NhanVien ([MaNV], [TenUser], [Password], [TonTai], [MaAdmin]) VALUES (2, N'Ngoc', N'12345', 1, N'ad1')
+INSERT NhanVien ([MaNV], [TenUser], [Password], [TonTai], [MaAdmin]) VALUES (3, N'Quynh', N'12345', 1, N'ad1')
+INSERT NhanVien ([MaNV], [TenUser], [Password], [TonTai], [MaAdmin]) VALUES (4, N'Truc', N'12345', 1, N'ad1')
+INSERT NhanVien ([MaNV], [TenUser], [Password], [TonTai], [MaAdmin]) VALUES (5, N'Vuong', N'12345', 1, N'ad1')
 
 INSERT QTV ([MaAdmin], [TenUser], [Password]) VALUES (N'ad1', N'admin1', N'12345')
 
