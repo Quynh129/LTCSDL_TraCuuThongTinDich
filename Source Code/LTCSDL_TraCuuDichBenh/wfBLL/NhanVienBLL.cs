@@ -22,20 +22,21 @@ namespace wfBLL
                 return true; //có tài khoản
             return false;
         }
+
         public void Xoa(string MaNV)
         {
             nv_dal.Delete(MaNV);
         }
         public bool Sua(NhanVienDTO nv)
         {
-            if (nv.MaNv != null)
+            if (string.IsNullOrEmpty(nv.MaNv.ToString()))
                 return false;
             nv_dal.Update(nv);
             return true;
         }
         public int Them(NhanVienDTO nv)
         {
-            if (nv.MaNv != null)
+            if (string.IsNullOrEmpty(nv.MaNv.ToString()))
                 return 0;
             if (!nv_dal.Insert(nv))
                 return -1;

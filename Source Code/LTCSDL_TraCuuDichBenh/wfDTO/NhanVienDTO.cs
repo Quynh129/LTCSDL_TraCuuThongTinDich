@@ -11,6 +11,7 @@ namespace wfDTO
         public double MaNv { get; set; }
         public string TenUser { get; set; }
         public string Password { get; set; }
+        public double TonTai { get; set; }
         public string MaAdmin { get; set; }
     }
 }

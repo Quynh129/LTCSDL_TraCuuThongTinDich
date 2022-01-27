@@ -82,6 +82,12 @@
     <Compile Include="FQlyThanhVien.Designer.cs">
       <DependentUpon>FQlyThanhVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="FThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FThongKe.Designer.cs">
+      <DependentUpon>FThongKe.cs</DependentUpon>
+    </Compile>
     <Compile Include="FThongTinTG.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FQlyThanhVien.resx">
       <DependentUpon>FQlyThanhVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FThongKe.resx">
+      <DependentUpon>FThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FThongTinTG.resx">
       <DependentUpon>FThongTinTG.cs</DependentUpon>

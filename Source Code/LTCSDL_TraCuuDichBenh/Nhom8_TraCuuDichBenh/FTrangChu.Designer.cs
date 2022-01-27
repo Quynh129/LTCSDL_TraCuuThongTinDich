@@ -42,10 +42,12 @@ namespace Nhom8_TraCuuDichBenh
             this.lbTGtu = new System.Windows.Forms.Label();
             this.lbTGnhiem = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.lbVNkhoi = new System.Windows.Forms.Label();
             this.lbVNtu = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.lbVNnhiem = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -60,10 +62,9 @@ namespace Nhom8_TraCuuDichBenh
             this.label9 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.lbVNkhoi = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btThongKe = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -102,6 +103,7 @@ namespace Nhom8_TraCuuDichBenh
             this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel2.BackColor = System.Drawing.Color.Teal;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.btThongKe);
             this.panel2.Controls.Add(this.btTrangChu);
             this.panel2.Controls.Add(this.btVietNam);
             this.panel2.Controls.Add(this.btDangNhap);
@@ -226,18 +228,6 @@ namespace Nhom8_TraCuuDichBenh
             this.label6.Text = "Tổng số ca \r\nbình phục";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label5
-            // 
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(177)))), ((int)(((byte)(176)))));
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(171, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(155, 70);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Tổng số ca \r\ntử vong";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(102)))));
@@ -249,6 +239,18 @@ namespace Nhom8_TraCuuDichBenh
             this.label4.TabIndex = 0;
             this.label4.Text = "Tổng số ca \r\nnhiễm bệnh";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label5
+            // 
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(177)))), ((int)(((byte)(176)))));
+            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(171, 12);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(155, 70);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Tổng số ca \r\ntử vong";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel4
             // 
@@ -265,6 +267,17 @@ namespace Nhom8_TraCuuDichBenh
             this.panel4.Size = new System.Drawing.Size(498, 176);
             this.panel4.TabIndex = 10;
             // 
+            // lbVNkhoi
+            // 
+            this.lbVNkhoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(204)))));
+            this.lbVNkhoi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbVNkhoi.Location = new System.Drawing.Point(338, 94);
+            this.lbVNkhoi.Name = "lbVNkhoi";
+            this.lbVNkhoi.Size = new System.Drawing.Size(155, 70);
+            this.lbVNkhoi.TabIndex = 15;
+            this.lbVNkhoi.Text = "000";
+            this.lbVNkhoi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // lbVNtu
             // 
             this.lbVNtu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -275,6 +288,18 @@ namespace Nhom8_TraCuuDichBenh
             this.lbVNtu.TabIndex = 4;
             this.lbVNtu.Text = "000";
             this.lbVNtu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
+            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(338, 12);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(155, 70);
+            this.label14.TabIndex = 14;
+            this.label14.Text = "Tổng số ca \r\nbình phục";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbVNnhiem
             // 
@@ -442,33 +467,25 @@ namespace Nhom8_TraCuuDichBenh
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // lbVNkhoi
+            // btThongKe
             // 
-            this.lbVNkhoi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(255)))), ((int)(((byte)(204)))));
-            this.lbVNkhoi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lbVNkhoi.Location = new System.Drawing.Point(338, 94);
-            this.lbVNkhoi.Name = "lbVNkhoi";
-            this.lbVNkhoi.Size = new System.Drawing.Size(155, 70);
-            this.lbVNkhoi.TabIndex = 15;
-            this.lbVNkhoi.Text = "000";
-            this.lbVNkhoi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label14
-            // 
-            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(204)))), ((int)(((byte)(153)))));
-            this.label14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(338, 12);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(155, 70);
-            this.label14.TabIndex = 14;
-            this.label14.Text = "Tổng số ca \r\nbình phục";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btThongKe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btThongKe.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btThongKe.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btThongKe.ForeColor = System.Drawing.Color.Black;
+            this.btThongKe.Location = new System.Drawing.Point(678, 3);
+            this.btThongKe.Name = "btThongKe";
+            this.btThongKe.Size = new System.Drawing.Size(157, 42);
+            this.btThongKe.TabIndex = 14;
+            this.btThongKe.Text = "Thống kê";
+            this.btThongKe.UseVisualStyleBackColor = false;
+            this.btThongKe.Click += new System.EventHandler(this.btThongKe_Click);
             // 
             // FTrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(239)))));
             this.ClientSize = new System.Drawing.Size(1184, 662);
             this.Controls.Add(this.panel7);
@@ -537,5 +554,6 @@ namespace Nhom8_TraCuuDichBenh
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label lbVNkhoi;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button btThongKe;
     }
 }

@@ -46,3 +46,4 @@ D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.pdb
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDAL.dll
 D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\bin\Debug\wfDAL.pdb
+D:\NA\Study\University\3rd Junior\211\T2_Lập trình cơ sở dữ liệu\Nhóm đồ án\DoAn_Winform\Source Code\LTCSDL_TraCuuDichBenh\Nhom8_TraCuuDichBenh\obj\Debug\Nhom8_TraCuuDichBenh.FThongKe.resources

@@ -22,5 +22,11 @@ namespace wfBLL
                 return true; //có tài khoản
             return false;
         }
+        public bool kiemTaTonTai(string _maAd)
+        {
+            if (qtv_dal.checkExist(_maAd) == true)
+                return true; //có tài khoản
+            return false;
+        }
     }
 }

@@ -21,5 +21,11 @@ namespace wfDAL
                 return true;
             return false;
         }
+        public bool checkExist(string _maAd)
+        {
+            if (GetData("select* from Qtv where MaAdmin = '" + _maAd + "'").Rows.Count > 0)
+                return true;
+            return false;
+        }
     }
 }

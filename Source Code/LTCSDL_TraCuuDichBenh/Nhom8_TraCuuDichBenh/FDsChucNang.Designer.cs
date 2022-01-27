@@ -38,6 +38,10 @@ namespace Nhom8_TraCuuDichBenh
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btUpVN1 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtTen = new System.Windows.Forms.TextBox();
+            this.txtMa = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -129,6 +133,7 @@ namespace Nhom8_TraCuuDichBenh
             // 
             // panel3
             // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.btUpVN1);
             this.panel3.Controls.Add(this.btUpVietNam);
             this.panel3.Controls.Add(this.btUpTheGioi);
@@ -150,12 +155,55 @@ namespace Nhom8_TraCuuDichBenh
             this.btUpVN1.UseVisualStyleBackColor = false;
             this.btUpVN1.Click += new System.EventHandler(this.btUpVN1_Click);
             // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(86, 520);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(138, 32);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Tên nhân viên:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(86, 564);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(127, 32);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Mã nhân viên:";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // txtTen
+            // 
+            this.txtTen.Enabled = false;
+            this.txtTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTen.Location = new System.Drawing.Point(230, 523);
+            this.txtTen.Name = "txtTen";
+            this.txtTen.Size = new System.Drawing.Size(100, 27);
+            this.txtTen.TabIndex = 12;
+            // 
+            // txtMa
+            // 
+            this.txtMa.Enabled = false;
+            this.txtMa.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMa.Location = new System.Drawing.Point(230, 567);
+            this.txtMa.Name = "txtMa";
+            this.txtMa.Size = new System.Drawing.Size(45, 27);
+            this.txtMa.TabIndex = 13;
+            // 
             // FDsChucNang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(236)))), ((int)(((byte)(239)))));
             this.ClientSize = new System.Drawing.Size(1184, 662);
+            this.Controls.Add(this.txtMa);
+            this.Controls.Add(this.txtTen);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
@@ -165,7 +213,8 @@ namespace Nhom8_TraCuuDichBenh
             this.MaximizeBox = false;
             this.Name = "FDsChucNang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FDsChucNang";
+            this.Text = "Các công việc";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FDsChucNang_FormClosing);
             this.Load += new System.EventHandler(this.FDsChucNang_Load);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -187,5 +236,9 @@ namespace Nhom8_TraCuuDichBenh
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btUpVN1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtTen;
+        private System.Windows.Forms.TextBox txtMa;
     }
 }

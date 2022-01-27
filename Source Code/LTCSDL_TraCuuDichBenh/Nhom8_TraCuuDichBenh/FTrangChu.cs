@@ -36,6 +36,7 @@ namespace Nhom8_TraCuuDichBenh
             lbVNtu.DataBindings.Add("Text", dt2, "TuTong", true);
             DataTable dt3 = _dt.GetData("select TGNhiemTong, TGTuTong, TGKhoiTong from TheGioi where MaQG = ('QG32')");
             lbVNkhoi.DataBindings.Add("Text", dt3, "TGKhoiTong", true);
+            
         }
 
         #region Các button chuyển form
@@ -53,6 +54,13 @@ namespace Nhom8_TraCuuDichBenh
             this.Hide();
         }
 
+        private void btThongKe_Click(object sender, EventArgs e)
+        {
+            FThongKe fTop = new FThongKe(this);
+            fTop.Show();
+            this.Hide();
+        }
+
         private void btDangNhap_Click(object sender, EventArgs e)
         {
             FDangNhap flogin = new FDangNhap(this);
@@ -63,12 +71,7 @@ namespace Nhom8_TraCuuDichBenh
 
         private void FTrangChu_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát?", "tiêu đề",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (dialogResult == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
+            Application.Exit();
         }
     }
 }
